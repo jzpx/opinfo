@@ -1,0 +1,27 @@
+site_name: 'BGP PEERING'
+site_description:  'BGP Peering Specifications'
+site_author:  'Joseph Otico'
+
+
+
+# CONFIGURATION
+theme:
+  name: 'material'
+  palette:
+    primary: 'cyan'
+    accent:  'cyan'
+  font:
+    text:  'Ubuntu'
+    code:  'Ubuntu Mono'
+  logo:
+    icon:  'donut_large'
+
+
+
+# EXTENSIONS
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
